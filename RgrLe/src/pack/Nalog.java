@@ -24,6 +24,9 @@ public class Nalog extends JFrame{
 	 используем его методы в своей программе. { }-описание класса располагается между фигурными скобками. 
 	*/
 
+	
+	
+	
 	private static final long serialVersionUID = 1L;
 	public static Nalog frame = new Nalog(); /* Index() - это установка компонентов (панель вкладок) на JFrame. 
 	(Public) - означает что фрейм Index можно вызвать из любого файла который лежит в пакете pack.

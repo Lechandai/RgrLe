@@ -1,5 +1,4 @@
 package pack;
-
 public class tax {
 	public double calcTax ( double d, double child,double proc)
 	 {
@@ -11,8 +10,6 @@ public class tax {
 
 				double ded=deduction(child);
 				tax = (proc/100)*(d-ded);
-				
-			
 		}
 		//обработчик ошибок заносит -1 в tax в случае возникновения исключения
 		catch(ArithmeticException exception){tax=-1;}
