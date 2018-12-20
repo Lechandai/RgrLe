@@ -6,9 +6,9 @@ package pack;
 public class MetodCalc {
 	 public double calc ( double n1, String op, double n2)
 	 {
-		 //переменная для хранения результата
+		 //РїРµСЂРµРјРµРЅРЅР°СЏ РґР»СЏ С…СЂР°РЅРµРЅРёСЏ СЂРµР·СѓР»СЊС‚Р°С‚Р°
 		 double res = 0;
-		 //оператор выбора
+		 //РѕРїРµСЂР°С‚РѕСЂ РІС‹Р±РѕСЂР°
 	 switch (op)
 	 {
 	 case "+":
@@ -27,7 +27,7 @@ public class MetodCalc {
 	 res = 0;
 	 break;
 	 }
-	 //возвращаем результат
+	 //РІРѕР·РІСЂР°С‰Р°РµРј СЂРµР·СѓР»СЊС‚Р°С‚
 	 return res;
 	 }
 	}
